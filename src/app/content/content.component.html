@@ -1,0 +1,61 @@
+<div class="overlay">
+  <div class="background">
+  </div>
+  <div class="content row">
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 words">
+      <h1 class="getintouch">Get In Touch</h1>
+      <div class="paragraf">
+        Want to see how Zengrowth can help you and your team?
+        We will listen to your story and propose a data-driven growth
+        plan with channels that fit across your customer journey
+      </div>
+      <div class="checks">
+        <div class="check row">
+          <img src="assets/img/check.png">
+          Predictable Lead Generation
+        </div>
+        <div class="check row">
+          <img src="assets/img/check.png">
+          Rapid Marketing Experimentation
+        </div>
+        <div class="check row">
+          <img src="assets/img/check.png">
+          Lower Customer Acquisition Costs
+        </div>
+        <div class="check row">
+          <img src="assets/img/check.png">
+          Increased Marketing ROI
+        </div>
+      </div>
+      <div class="therest row">
+        Trusted growth partner for hyper-growth companies:
+      </div>
+      <div class="img-line row">
+        <div class="col-6 col-md-3 col-xs-6 col-sm-6 col-lg-6 col-xl-6">
+          <img src="assets/img/teamviewer.png">
+        </div>
+        <div class="col-6 col-md-3 col-xs-6 col-sm-6 col-lg-6 col-xl-6">
+          <img src="assets/img/demodesk.png">
+        </div>
+        <div class="col-6 col-md-3 col-xs-6 col-sm-6 col-lg-6 col-xl-6">
+          <img src="assets/img/USB.png">
+        </div>
+        <div class="col-6 col-md-3 col-xs-6 col-sm-6 col-lg-6 col-xl-6">
+          <img src="assets/img/loyalty.png">
+        </div>
+      </div>
+    </div>
+    <div class="formi col-xl-6 col-lg-6 col-md-12 col-sm-12" *ngIf="!bool; else elseBlock">
+      <app-form (event)="condition()"></app-form>
+    </div>
+    <ng-template #elseBlock><div class="formi col-xl-6 col-lg-6 col-md-12 col-sm-12">
+      <div class="row end">
+        <img src="assets/img/GTick.png">
+      </div>
+      <div class="row ewords">
+        Thank you for your interes
+      </div>
+    </div>
+    </ng-template>
+  </div>
+</div>

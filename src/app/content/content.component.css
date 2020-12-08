@@ -1,0 +1,139 @@
+.getintouch {
+  color: white;
+  font-size: 48px;
+  margin: 28px auto;
+}
+
+.background {
+  margin: -1px;
+  background-color: #182370;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.paragraf {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #F6F7FA;
+  margin-bottom: 25px;
+}
+
+.img-line > div {
+  padding: 10px;
+}
+
+.img-line img {
+  max-width: 85%;
+}
+
+.checks {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #89C8F9;
+}
+
+.check {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  max-height: 50px;
+  color: #F6F7FA;
+  margin: 10px 30px 10px 0;
+}
+
+
+.check > img {
+  max-width: 28px;
+  max-height: 28px;
+  margin-right: 32px;
+}
+
+hr {
+  width: 100%;
+  margin: 10px auto 10px auto;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.therest {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.ewords{
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0 auto 0 150px;
+}
+
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: max-content;
+}
+
+.content > div {
+  padding: 0 5%;
+}
+
+.content {
+  max-width: 1500px;
+  margin: auto;
+  padding: 100px 28px;
+}
+
+.img-line {
+  margin: 20px auto;
+  display: flex;
+  /*width: 100%;*/
+  justify-content: space-between;
+}
+
+.formi {
+  background-color: white;
+  position: relative;
+  width: 700px;
+  border-radius: 2%;
+}
+
+.end{
+  margin: 100px auto 0 200px;
+}
+
+/*@media all and (max-width: 480px) {*/
+/*  .formi { display: none; }*/
+/*}*/
+
+@media only screen and (max-width: 992px) {
+  .content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .words{
+    order: 2;
+  }
+
+  .background {
+    width: 100%;
+  }
+
+  .formi{
+    order: 1;
+    border-radius: 0%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+
+}

@@ -1,0 +1,31 @@
+.navbar {
+  height: 100px;
+  max-width: 1500px;
+  padding: 0 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.btn-primary {
+  background: #343FFF;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding: 0 !important;
+  }
+  .large-menu{
+    display: none;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .mobile-menu{
+    display: none;
+  }
+  .background{
+    width: 100%;
+  }
+}

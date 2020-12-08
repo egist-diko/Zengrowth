@@ -1,0 +1,57 @@
+input.form-control{
+  padding: 15px;
+  margin: auto;
+}
+.formi{
+  padding: 10px;
+}
+
+.title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+input::placeholder {
+  color: blue;
+}
+
+input.form-control:focus {
+  border: 1px solid #343FFF;
+}
+
+
+.email {
+  border-radius: 4px;
+  background-image: url("src\assets\img\email.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #343FFF;
+}
+
+textarea{
+  width: 100%;
+  height: 200px;
+}
+
+.line{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 31px;
+  /* identical to box height, or 223% */
+
+
+  color: #4C4C4C;
+}
+
+button{
+  width: 100%;
+  background: #343FFF;
+  height: 50px;
+}
