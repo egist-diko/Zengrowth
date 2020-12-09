@@ -3,7 +3,7 @@
   height: 100px;
   background: #FFFFFF;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 300px 0 100px;
 }
 .container{
   height: 100px;
@@ -20,4 +20,15 @@ hr {
 
 .rights{
   width: 1500px;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1496px) {
+  .footi {
+    padding: 0 !important;
+  }
 }
